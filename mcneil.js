@@ -43,11 +43,11 @@
       return $(this).clone().children().remove().end().text().indexOf(settings.targetString) > -1;
     });
 
-    upcase.each(function(index, el) {
-      if ($(el).clone().children().remove().end().text().indexOf("McNeil") > -1) {
-        upChildren = upChildren.add($(el));
-      };
+    upcase = upcase.filter(function(index) {
+      return $(this).clone().children().remove().end().text().indexOf(settings.targetString) > -1;
     });
+
+    upChildren = upChildren.add(upcase);
 
     upChildren.each(function(index, el) {
       $(el).html(
