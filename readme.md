@@ -16,11 +16,9 @@ That's the simplest way. If you do that, McNeil will look for every sequence of 
 3. Check out the options
 
 <table>
-    <th>
-        <td>Option</td>
-        <td>Default</td>
-        <td>What it does</td>
-    </th>
+    <th>Option</th>
+    <th>Default</th>
+    <th>What it does</th>
 
     <tr>
         <td>targetString</td>
