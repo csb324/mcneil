@@ -1,3 +1,6 @@
+McNeil is a jQuery Plugin for Making Some Letters Lowercase
+==================================
+
 Ever run into a situation where using "text-transform: uppercase" ruins your whole life?
 
 Maybe your name is "McNeil", and you need the "c" in your name to be lowercase no matter what, under penalty of death, because of a deal your great great grandfather once made with an evil sorcerer?
@@ -77,5 +80,4 @@ Problems McNeil Does Not Solve
 1. Using caps lock
 2. Startups thinking it's even a good idea to call themselves "SwIrLy"
 3. Loneliness
-
 
